@@ -1,0 +1,134 @@
+/* General styling for the main container */
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Styling the form container */
+.form-container {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  box-sizing: border-box;
+}
+
+.form-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Labels */
+.form-container label {
+  display: block;
+  margin: 12px 0 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Inputs */
+.form-container input[type="text"],
+.form-container input[type="password"],
+.form-container input[type="email"],
+.form-container input[type="tel"],
+.form-container input[type="date"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+.gender-options {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin-left: 1px;
+}
+
+.gender-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #FF4141;
+}
+
+.gender-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px; /* adjust as needed */
+}
+
+.gender-option label {
+  color: black;
+  font-weight: normal;
+}
+
+.gender-option input[type="radio"] {
+  margin: 0;
+}
+
+/* Checkbox */
+.loginSignUp-agree {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.loginSignUp-agree input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.loginSignUp-agree label {
+  font-size: 14px;
+}
+
+/* Submit button */
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #FF4141;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #FF4141;
+}
+
+/* Footer text */
+.loginSignUp {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.loginSignUp span {
+  color: #FF4141;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media screen and (max-width: 500px) {
+  .form-container {
+    padding: 20px;
+  }
+
+  .main-content {
+    padding: 15px;
+  }
+}

@@ -1,0 +1,24 @@
+npm run dev{
+  "users": [
+    {
+      "id": "d0dd",
+      "username": "Radhakrishna",
+      "password": "Radha@krishna5",
+      "gender": "FEMALE",
+      "email": "Meghashyaama@gmaill.com",
+      "DOB": "1994-02-02",
+      "phno": "1234567899",
+      "agree": true
+    },
+    {
+      "id": "7d7a",
+      "username": "yashu",
+      "password": "yashu@123",
+      "gender": "FEMALE",
+      "email": "yashu@gmail.com",
+      "DOB": "2004-12-28",
+      "phno": "1234567899",
+      "agree": true
+    }
+  ]
+}
