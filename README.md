@@ -19,10 +19,3 @@ A simple and modern e-commerce web application built using React.js. The app all
 - CSS Bootstrap
 - Context API
 
-## Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/Meghashyaama/ShopHolic-Ecommerce-APP.git
-cd react-ShopHolic-Ecommerce-APP
